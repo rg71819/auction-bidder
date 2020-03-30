@@ -1,0 +1,138 @@
+body {font-family: Arial;}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  position: fixed; /* Set the navbar to fixed position */
+  width:100%;
+  bottom: 0;
+}
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  
+  
+}
+
+
+.text-input {
+  position: relative;
+  margin-top: 50px;
+}
+.text-input input[type="text"] {
+  display: inline-block;
+  width: 500px;
+  height: 40px;
+  box-sizing: border-box;
+  outline: none;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  padding: 10px 10px 10px 100px;
+  transition: all 0.1s ease-out;
+}
+.text-input input[type="text"] + label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  height: 40px;
+  line-height: 40px;
+  color: white;
+  border-radius: 3px 0 0 3px;
+  padding: 0 20px;
+  background: #E03616;
+  -webkit-transform: translateZ(0) translateX(0);
+          transform: translateZ(0) translateX(0);
+  transition: all 0.3s ease-in;
+  transition-delay: 0.2s;
+}
+.text-input input[type="text"]:focus + label {
+  -webkit-transform: translateY(-120%) translateX(0%);
+          transform: translateY(-120%) translateX(0%);
+  border-radius: 3px;
+  transition: all 0.1s ease-out;
+}
+.text-input input[type="text"]:focus {
+  padding: 10px;
+  transition: all 0.3s ease-out;
+  transition-delay: 0.2s;
+}
+
+
+.myAuctions {
+  padding: 16px;
+  margin-bottom: 30px;
+  height: 1500px; /* Used in this example to enable scrolling */
+}
+
+.myBids {
+  padding: 16px;
+  margin-bottom: 30px;
+  height: 1500px; /* Used in this example to enable scrolling */
+}
+input { 
+    text-align: center; 
+}
+.btn-group button {
+  background-color: #4CAF50; /* Green background */
+  border: 1px solid green; /* Green border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+} 
+
+.tabs {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  position: fixed; /* Set the navbar to fixed position */
+  width:100%;
+  top:0;
+}
+.tabs button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+/* Change background color of buttons on hover */
+.tabs button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tabs button.active {
+  background-color: #ccc;
+}
+li{
+text-align:center;
+}
